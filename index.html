@@ -1,0 +1,537 @@
+<html>
+  <head>
+   <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Shop Bet9ja Clone - Desktop version</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic%7CMulish:300,regular,600,700%7CMarcellus:regular%7CPoppins:300,regular,500,600,700,800">
+  <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <section>
+          <div class="logoParent">
+            <div class="logoDiv">
+              <!-- <img src="images/6.jpg" /> -->
+            </div>
+            <div class="topFormDiv">
+              <div class="flex formDiv">
+                <div class="flex">
+                  <label> </label>
+                  <input type="text" placeholder="Username" />
+                  <label> Enter password  </label>
+                  <input type="password" placeholder="Password" />
+                </div>
+                <div>
+                  <button class="login-btn">Log in</button>
+                </div>
+              </div>
+              <div>
+                <p>Forgotten Password?</p>
+              </div>
+            </div>
+          </div>
+          <div class="nav1-div fir">
+            <nav>
+              <ul>
+                <li>
+                  <a href style="color: #ff0000;">
+                    <div class="flex-d-c"><span>SPORT</span>
+                      <button><i class="fa fa-caret-up" style="visibility: visible"></i></button>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href>
+                    <div class="flex-d-c"><span>LIVE</span>
+                      <button><i class="fa fa-caret-up"></i></button>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href>
+                    <div class="flex-d-c"><span>ZOOM TV</span>
+                      <button><i class="fa fa-caret-up"></i></button>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a href>
+                    <div class="flex-d-c"><span>RACES</span>
+                      <button><i class="fa fa-caret-up"></i></button>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="nav1-div nav2-div flex">
+            <nav>
+              <ul>
+                <li>
+                  <a href>Home</a>
+                </li>
+                <li>
+                  <a href>About Us</a>
+                </li>
+                <li>
+                  <a href>Tutorials</a>
+                </li>
+                <li>
+                  <a href>FAQ</a>
+                </li>
+                <li>
+                  <a href>Deposit/Withdrawal</a>
+                </li>
+                <li>
+                  <a href>Livescore</a>
+                </li>
+                <li>
+                  <a href>Results</a>
+                </li>
+                <li>
+                  <a href>Statistics</a>
+                </li>
+                <li>
+                  <a href>Contact Us</a>
+                </li>
+              </ul>
+            </nav>
+            <div style="position: absolute;right: -50px">
+              <span>Timezone:</span>
+              <button class="timezone-btn" id="timezone">West Central Africa</button>
+            </div>
+          </div>
+        </section>
+      </header>
+      <main>
+        <section>
+          <form>
+            <label for> Search </label>
+            <div class="flex gs-div bg-white">
+              <input type="search" />
+              <button type="button"><i class="fa fa-search"></i></button>
+            </div>
+          </form>
+          <section class="category" id="gamesNav">
+            <div class="rel">
+              <div class="category-par">
+                <div class="width-3">
+                  <i class="fa fa-clock-o" style="font-size: 15px;"></i>
+                </div>
+                <div class="width-auto">LiveBetting</div>
+                <div class="fs-2">
+                </div>
+              </div>
+              <div></div>
+            </div>
+          </section>
+        </section>
+        <section id="category-info">
+          <div class="flex js-sp fast-sport p-1">
+            <div>Fast Sport</div>
+            <div class="flex-ajc i">
+              <i class="fa fa-info"></i>
+            </div>
+          </div>
+          <div class="p-3 bg-white">
+            <form class="code-search">
+              <input type="text" style="width: 70px" />
+              <input type="text" style="width: 150px" />
+              <button><i class="fa fa-play"></i></button>
+            </form>
+          </div>
+          <div class="date">
+            <div class="green-btn">
+              <span>Today</span>
+            </div>
+            <div class="green-btn">
+              <span>Tomorrow</span>
+            </div>
+            <div class="green-btn">
+              <span>Week</span>
+            </div>
+            <div class="green-btn hv-bg-color">
+              <span>ALL</span>
+            </div>
+          </div>
+          <div class="empty">
+            <div class="flex emptyFlex">
+              <div class="info">
+                <div>
+                  <div style="height: 30%">
+                    <div style="position: absolute; top: 7;left: 45%;width: 100%;height: 100%">
+                      <div>
+                        <div style="width: 7px; height: 7px; background-color: white;"></div>
+                        <div style="width: 7px; height: 21px; background-color: white; margin-top: 5px;box-shadow: 0px 0px 7px 3px #242424;"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="height: 70%;border-radius: 50%; box-shadow: inset 0px 0px 7px 6px #000000b8;
+                  transform: scale(2) translate(0px, 9px)"></div>
+                </div>
+                <div class="shadow">
+                  <div style="margin: 3px"></div>
+                </div>
+              </div>
+              <div>
+                <h1>Information</h1>
+                <p>Please select at least one event from the left hand list to display odds.</p>
+              </div>
+            </div>
+          </div>
+          <div data-select="England - Premier League">
+            <div class="indiv_game"><div class="flex js-sp game-info">
+              <div>
+                  <p>England - Premier League</p>
+              </div>
+              <div>
+                  <i class="fa fa-short-arrow-left"></i>
+                  <i class="fa fa-rotate-right" title="Refresh"></i>
+                  <i class="fa fa-print" title="Print"></i>
+                  <i class="fa fa-remove" data-select="England - Premier League" title="Remove"></i>
+              </div>
+            </div>
+            <div class="games bg-white">
+              <div class="grid top-grid head">
+                <div>05 AUGUST 2022</div>
+                <div class="top-grid2">1X2</div>
+                <div class="top-grid3">DC</div>
+                <div class="top-grid4">O/U 2.5</div>
+                <div></div>
+              </div>
+              <div class="grid info-div game">
+                <div></div>
+                <div>ID</div>
+                <div>TIME</div>
+                <div>Events</div>
+                <div>1</div>
+                <div>X</div>
+                <div>2</div>
+                <div>1X</div>
+                <div>12</div>
+                <div>2X</div>
+                <div>OVER</div>
+                <div>UNDER</div>
+                <div></div>
+              </div>
+              <div class="grid info-div game">
+                <div class="a1"></div>
+                <div class="a2">2223</div>
+                <div class="a3">12:00</div>
+                <div class="a4 g0">Crystal Palace - Arsenal</div>
+                <div class="a5 g1">2.34</div>
+                <div class="a6 g2">3.43</div>
+                <div class="a7 g3">3.26</div>
+                <div class="a8 g4">2.34</div>
+                <div class="a9 g5">2.54</div>
+                <div class="a10 g6">6.56</div>
+                <div class="a11 g7">4.67</div>
+                <div class="a12 g8">7.34</div>
+                <div class="a13 g3"></div>
+              </div>
+            </div>
+        </div>
+        </section>
+        <section class="third-sec">
+          <div class="flex js-sp fast-sport p-1">
+              <div>Betslip</div>
+              <div class="flex-ajc i">
+                <span id="number-of-select"></span>
+              </div>
+          </div>
+            <form action="" class="bg-white fs-3 pad-betslip" name="booking-no">
+              <div>
+                <p>Insert Booking Number <i class="fa fa-info"></i></p>
+                <label for="booking-no">Insert Booking Number</label>
+                <div class="flex"><input type="text" name="bookingNum" id="booking-no"><button type="submit">LOAD</button></div>
+              </div>
+            </form>
+
+            <div class="betslip">
+              <p id="add_to_betslip" style="display: none">Click on the odds to add to your betslip</p> 
+              <div class="betslip-list">
+                <div class="flex-ajc " id="sel-games">
+                <ul>
+                    <li data-game="1">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2351</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Fulham - Liverpool</div>
+                            <div class="flex flex-ajc">
+                              <div style="width: 1.8rem;" class=" flex js-sp" style="padding-top: 3px;">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">9.40</span>
+                                <button class="removeBtn"><i class="fa fa-times-rectangle" data-game="1" data-odd="9.40"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li data-game="2">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2348</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Bournemouth - Aston Villa</div>
+                            <div class="flex flex-ajc">
+                              <div style="width: 1.8rem;" class="flex js-sp" style="padding-top: 3px;">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">3.30</span>
+                                <button><i class="fa fa-times-rectangle" data-game="2" data-odd="3.30"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li data-game="3">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2351</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Leeds - Wolves</div>
+                            <div class="flex flex-ajc">
+                              <div style="width: 1.8rem;" class="flex js-sp" style="padding-top: 3px;">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">2.40</span>
+                                <button><i class="fa fa-times-rectangle" data-game="3" data-odd="2.40"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                    <li data-game="4">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2351</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Newscastle Utd - Nottingham Forest</div>
+                            <div class="flex flex-ajc" style="padding-top: 3px;">
+                              <div style="width: 1.8rem;" class="flex js-sp" style="padding-top: 3px;"">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">1.67</span>
+                                <button><i class="fa fa-times-rectangle" data-game="4" data-odd="1.67"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+		    <li data-game="5">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2351</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Newscastle Utd - Nottingham Forest</div>
+                            <div class="flex flex-ajc" style="padding-top: 3px;">
+                              <div style="width: 1.8rem;" class="flex js-sp" style="padding-top: 3px;"">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">1.67</span>
+                                <button><i class="fa fa-times-rectangle" data-game="5" data-odd="1.67"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+		                <li data-game="6">
+                      <div class="flex pr-1">
+                          <div class="pr-1"><span>2351</span></div>
+                          <div style="flex-grow: 1;">
+                            <div class="ellipsis">Newscastle Utd - Nottingham Forest</div>
+                            <div class="flex flex-ajc" style="padding-top: 3px;">
+                              <div style="width: 1.8rem;" class="flex js-sp" style="padding-top: 3px;"">
+                                <span>1</span><span style="color: grey;">1x2</span>
+                              </div>
+                              <div style="text-align: right; flex-grow: 1; color: green;">
+                                <span aria-label="Game odd">5.67</span>
+                                <button><i class="fa fa-times-rectangle" data-game="6" data-odd="5.67"></i></button>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </li>
+                </ul>
+                </div>
+              </div>
+              <div style="position: relative; margin-bottom: 9rem;" class="calc">
+               
+                <div class="positioned">
+                  <div id="formatGame">
+                     <div class="flex multiple">
+                      <div class="mult">MULTIPLE</div>
+                      <div class="odds-color">COMBINED</div>
+                    </div>
+                    <div class="odds-color odds-pad flex js-sp">
+                      <span>Odds</span>
+                      <span id="odds">0.00</span>
+                    </div>
+                    <div class="flex-ajc js-sp amount">
+                      <div>Amount</div>
+                      <div>
+                        <input type="number" id="amount"><svg style="width: 12px;height: 13px" viewBox="-2 -2 20 20">
+                          <path d="M4 17 L4 1 L11 17 L11 1" stroke="whitesmoke" stroke-width="2" fill="none"></path>
+                          <path stroke-width="2" stroke="whitesmoke" d="M1 7 L14 7" class=""></path>
+                          <path stroke-width="2" stroke="whitesmoke" d="M1 10 L14 10" class=""></path>
+                          </svg>
+                      </div>
+                    </div>
+                    <div class="flex-ajc js-sp bonus bg-white">
+                      <span>Bonus</span>
+                      <div><span style="padding-right: 4px;" id="selectedG-bonus"></span><svg style="width: 12px;height: 13px" viewBox="-2 -2 20 20">
+                        <path fill="none" stroke-width="2" stroke="black" d="M4 17 L4 1 L11 17 L11 1"></path>
+                        <path stroke-width="2" stroke="black" d="M1 7 L14 7" class=""></path>
+                        <path stroke-width="2" stroke="black" d="M1 10 L14 10" class=""></path>
+                        </svg></div>
+                    </div>
+                    <div class="flex-ajc js-sp bonus bg-white">
+                      <span>Pot. Winnings <button style=" padding: 4px; background-color: #b00303; color: white;"><i class="fa fa-refresh"></i></button></span>
+                      <div><span class="bold"><strong>626516.02</strong></span><svg style="width: 12px;height: 13px" viewBox="-2 -2 20 20">
+                        <path fill="none" stroke-width="2" stroke="black" d="M4 17 L4 1 L11 17 L11 1"></path>
+                        <path stroke-width="2" stroke="black" d="M1 7 L14 7" class=""></path>
+                        <path stroke-width="2" stroke="black" d="M1 10 L14 10" class=""></path>
+                        </svg></div>
+                    </div>
+                    <div class="bg-white reset-par">
+                      <div class="flex resetDiv">
+                        <button class="col-wh reset">RESET</button>
+                        <button class="col-wh">100</button>
+                        <button class="col-wh">200</button>
+                        <button class="col-wh">500</button>
+                        <button class="col-wh">1000</button>
+                      </div>
+                      <div class="flex-ajc js-sp cancelDiv">
+                        <button class="cancelBtn col-wh" id="cancelGames">Cancel</button>
+                        <button class="betBtn col-wh">BET</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="padding-top: 1rem; background-color: white;">
+                    <div class="flex js-sp fast-sport p-1" style="border-radius: 0px;">
+                      <div>Coupon Check</div>
+                      
+                    </div>
+                    <form action="" class="bg-white fs-3 pad-coup" name="coupenCheck">
+                      <div>
+                        <p>Insert the coupon code you wish to check</p>
+                        <label for="booking-no">Insert Booking Number</label>
+                        <div class="flex"><input type="text" name="bookingNum" id="booking-no"><button type="submit"><i class="fa fa-play"></i></button></div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </section>
+      </main>
+      <footer>
+        <div class="flex">
+          <div class="footer-flex1">
+            <div class="footer-green-top"></div>
+            <div class="link-div">
+              <h4>BET9JA</h4>
+              <nav class="flex">
+                <div>
+                  <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Become an Agent</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Results</a></li>
+                    <li><a href="">Web Affiliates</a></li>
+                    <li><a href="">Apps</a></li>
+                  </ul>
+                </div>
+                <div>
+                  <ul>
+                    <li><a href="">Terms and Conditions</a></li>
+                    <li><a href="">Sport T&C</a></li>
+                    <li><a href="">Responsible Gaming</a></li>
+                    <li><a href="">Privacy</a></li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="social-m">
+                <a href=""><div class="flex-ajc" style="height: 100%"><i class="fa fa-facebook"></i></div></a>
+                <a href=""><div class="flex-ajc" style="height: 100%"><i class="fa fa-twitter"></i></div></a>
+                <a href=""><div class="flex-ajc" style="height: 100%"><i class="fa fa-instagram"></i></div></a>
+              </div>
+            </div>
+            <div></div>
+          </div>
+          <div class="footer-flex2">
+            <div class="footer-reddish-top"></div>
+            <div class="map-div">
+              <img src="map.png">
+            </div>
+          </div>
+        </div>
+        <div class="pay-opt flex-ajc js-sp">
+          <nav>
+            <ul>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="mastercard.png">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="visa.png">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="">
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="copyright">
+            <p>2020 All rights reserved</p>
+            <img src="" alt="">
+          </div>
+        </div>
+        <div class="disclaimer">
+          <p>Bet9ja is not affiliated or connected with sports teams, event organisers and/or players displayed on its images/website </p>
+        </div>
+      </footer>
+  </div>
+  </body>
+  <script src="main.js"></script>
+</html>
